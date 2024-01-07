@@ -1,0 +1,650 @@
+ 
+li{
+  list-style: none;
+}
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+body{
+margin: 0;
+font-family: "Lucida Grande";
+overflow-x: hidden;
+
+  
+}
+.header{
+  align-items: center;
+  background-image: url(images/OIP.jpg);
+  background-size: cover;
+}
+
+.container{
+width:100% ;
+}
+
+.logofix img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:250px;
+  height:250px;
+  position: relative;
+  top:-40px;
+ 
+  
+}
+.btn{
+  display:flex;
+ position: relative;
+ top:20px;
+ left:20px;
+
+}
+.rowtop {
+  
+  background-color:#e1bee7;
+  opacity: 0.8;
+  background-size: cover;
+  height:170px;
+  width: 100%; 
+  margin:auto;
+}
+.search{
+  float:left;
+  padding-right:30px;  
+  cursor: pointer; 
+}
+.login{
+  float:left;
+  padding-right: 20px;
+  cursor: pointer;
+  
+}
+.rowbottom{
+   background-color:hsl(291, 46%, 83%);
+   opacity:1;
+   width: 100%;
+   height:70px;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-left:100px;
+}
+.rowbottom ul{
+  display:flex; 
+  
+}
+.rowbottom ul li a{
+  display:flex;
+  padding:35px 10px 30px 10px;
+  text-align:center;
+  margin:auto;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+.rowbottom ul li a:hover{
+color:black
+
+}
+
+
+.menu-item{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  position: relative;
+  right:-100px;
+  top:-168px;
+  
+}
+.menu-item input{
+  position:absolute;
+  width: 100px;
+  height: 30px;
+  left: -33px;
+  opacity: 0;
+  z-index: 2;
+  background-color: white;
+}
+.menu-item span{
+  display: block;
+  width: 35px;
+  height: 9px;
+  background-color: black;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.menu-item span:nth-child(2){
+  transform-origin: 0 0;
+ 
+}
+.menu-item span:nth-child(4){
+  transform-origin: 0 0;
+ 
+}
+.menu-item input:checked~:nth-child(2){
+  transform:rotate(45deg);
+  background-color: white; 
+}
+.menu-item input:checked~:nth-child(4){
+  transform:rotate(-45deg); 
+  background-color: white;
+}
+.menu-item input:checked~:nth-child(3){
+  transform:scale(0); 
+  opacity: 0;
+}
+
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+
+a {
+text-decoration: none;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 50px;
+  background-image: url("../images/bg.jpg");
+  background-size :cover;
+  color: #ae8fb6;
+  text-align: left;
+
+}
+
+.top-wrapper h1 {
+opacity: 1;
+font-size: 40px;
+letter-spacing: 5px;
+margin-bottom: 10px;
+position: relative;
+animation-name: example;
+animation-duration: 3s;  
+animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 30px; }
+}
+
+
+
+.top-wrapper p {
+opacity: 1;
+font-size: 22px;
+margin-bottom: 3px;
+position: relative;
+animation-name: example;
+animation-duration: 3s;  
+animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 30px; }
+}
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+.btns {
+padding: 12px 24px;
+color: white;
+display: inline-block;
+opacity: 0.8;
+border-radius: 4px;
+position: relative;
+animation-name: example;
+animation-duration: 3s;  
+animation-fill-mode: forwards;
+}
+
+@keyframes example {
+from {top: 0px;}
+to {top: 30px; }
+}
+
+.btn:hover {
+opacity: 1;
+}
+
+.started {
+background-color: #bf5f82;
+}
+
+.btn-wrapper {
+margin: 20px 0;
+}
+
+.btn-wrapper p {
+margin: 10px 0;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 600px;
+  padding-top: 60px;
+  background-color:#ffffff;
+}
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+.wrapper img {
+  size: 350px;
+}
+
+.baru {
+  text-align:center;
+}
+
+
+.lesson-wrapper {
+  height: 600px;
+  padding-bottom: 60px;
+  background-color:#faf9f9;
+  text-align:center;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #a37da3;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:10px;
+  font-size:15px;
+  color:#ffffff;
+  background-color:#bf5f82;
+  opacity: 0.8;
+  padding:10px
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dian {
+  background-color: #fff;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+.dian h2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 36px;
+}
+
+/* -----list box----- */
+ul {
+  list-style: none;
+}
+
+/* ----make up---- */
+.boxlist,
+.boxlist2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxlist li {
+  padding: 10px;
+}
+
+.box {
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+  /* memberikan bayangan */
+  border-radius: 10px;
+  /* agar sudut tumpul */
+  overflow: hidden;
+  /* menyembunyikan konten jika ukuran melebihi parent */
+}
+
+.box .img-box,
+.box2 .img-box {
+  height: 200px;
+  position: relative;
+}
+
+.box .img-box img,
+.box2 .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  /* agar tidak melebihi ukuran box */
+}
+
+.box .img-box .overlay,
+.box2 .img-box .overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* meski top&left 50% letak ditengah karena 50% x lebar parent */
+  transform: translate(-50%, -50%);
+  /* memindahkan elemen dr posisi left&top 50% ditranslate geser 50% min sumbux dan sumbuy*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(175, 142, 181, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.box .img-box:hover .overlay,
+.box2 .img-box:hover .overlay {
+  visibility: visible;
+  animation: fade 0.8s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box .img-box .overlay .buy-btn,
+.box2 .img-box .overlay .buy-btn {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff1ff;
+  color: #bf5f82;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+
+.box .img-box .overlay .buy-btn:hover,
+.box2 .img-box .overlay .buy-btn:hover {
+  color: #fff;
+  background-color: #f48fb1;
+  transition: all ease 0.3;
+}
+
+.box .ket-box,
+.box2 .ket-box {
+  width: 100%;
+  display: flex;
+  /* rata dr elemen didalamnya */
+  align-items: center;
+  /* kesejajaran antar item scr vertikal */
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.box .ket-box .name-product {
+  display: flex;
+  flex-direction: column;
+  margin: auto 20px;
+}
+
+.box .ket-box .name-product a,
+.box2 .ket-box .name-product a {
+  color: #bf5f82;
+  margin: 5px 0;
+  font-weight: 700;
+  /* ketebalan huruf */
+  letter-spacing: 0.5px;
+}
+
+.box .ket-box .name-product span,
+.box2 .ket-box .name-product span {
+  color: #bf5f82;
+}
+
+.box .ket-box .price,
+.box2 .ket-box .price {
+  color: #bf5f82;
+  font-weight: 600;
+}
+
+/* ----best-seller--- */
+.dian1 {
+  background-color: #e1bee7;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+.dian1 .content {
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  padding-top: 80px;
+}
+
+.dian1 img {
+  width: 550px;
+  height: 550px;
+  margin-left: 150px;
+}
+
+.dian1 .box-best {
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 250px;
+  right: 150px;
+  text-align: justify;
+}
+
+.dian1 .box-best h2 {
+  float: left;
+  font-size: 36px;
+}
+
+.dian1 .box-best .btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.buy-btn{
+  position: relative;
+  top:-15px;
+  left:-10px;
+}
+
+.dian1 .box-best .buy-btn {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5c058;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(153, 110, 110, 0.3);
+  text-transform: uppercase;
+}
+.dian1 .box-best .clear {
+  clear: both;
+}
+
+.dian1 .box-best .buy-btn:hover {
+  color: #fff;
+  background-color: #bf5f82;
+  transition: all ease 0.3;
+}
+
+.dian1 .box-best span {
+  font-size: 24px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f48fb1;
+  font-weight: 700;
+}
+
+.dian1 .box-best p {
+  padding-bottom: 10px;
+  color: #f48fb1;
+}
+
+/* ---skincare---- */
+.boxlist2 li {
+  padding: 30px;
+}
+
+.box2 {
+  width: 200px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+  /* memberikan bayangan */
+  border-radius: 10px;
+  /* agar sudut tumpul */
+  overflow: hidden;
+  /* menyembunyikan konten jika ukuran melebihi parent */
+}
+
+.box2 .ket-box .name-product {
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+}
+
+/* responsive */
+@media (max-width: 1170px) {
+  .dian1 {
+    padding-bottom: 240px;
+  }
+
+  .dian1 .box-best {
+    flex-wrap: wrap;
+  }
+  .dian1 img {
+    overflow: hidden;
+    margin-left: 50px;
+  }
+
+  .dian1 .box-best {
+    overflow: hidden;
+    top: 570px;
+    right: 50px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 670px) {
+  .dian1 {
+    padding-bottom: 320px;
+  }
+
+  .dian1 .box-best {
+    flex-wrap: wrap;
+  }
+  .dian1 img {
+    overflow: hidden;
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+  }
+
+  .dian1 .box-best {
+    overflow: hidden;
+    top: 500px;
+    right: 50px;
+    width: 300px;
+    height: auto;
+  }
+
+  .boxlist,
+  .boxlist2 {
+    flex-direction: column;
+  }
+
+  .boxlist li,
+  .boxlist2 li {
+    margin: 0 auto;
+  }
+}
+
+
+.foo {
+background-color:#E0BBE4;
+  width: 100%;
+  height: 200px;
+  font-style: "Avenir New";
+  opacity:1;
+}
+.foologo {
+  width: 200px;
+  height: 200px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  float: left;
+  opacity: 1;
+}
+.folistt{
+  float: right;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 60px;
+  height: 40px;
+}
+
+.folist {
+  float: right;
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 60px;
+  height: 40px;
+}
+
+.foab, .fosub {
+  color: #36013f;
+}
+
+
+.folist input {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.foemail {
+  font-size: 12px;
+}
+
+.fososmed {
+  font-size: 12px;
+  margin-bottom: 0px;
+}

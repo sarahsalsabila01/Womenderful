@@ -1,0 +1,119 @@
+@media(max-width:1170px){
+  .menu-item{
+    display: none;
+  }
+  .top-wrapper{
+  background-size :cover;}
+}
+
+@media (max-width:1000px){
+    
+  .menu-item{
+      display: none;
+  }
+  .rowbot ul{
+    text-align: justify;
+    justify-items: center;
+  }
+  .rowbot li {
+   
+      font-size:12px;
+      
+  }
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+  .wrapper img{
+    width: 100%;
+    size:auto;
+    position:relative;
+    left: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin:0 50px;
+  }  
+  
+}
+
+@media (max-width:670px){
+  .menu-item{
+      display: flex;
+  }
+
+  .rowbot li {
+     /* position: absolute;
+      right:0;
+      top:1;
+      height:100%;
+      background-color:#e1bee7;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      z-index: 0;
+      width: 40%; */
+      display:none;
+  }
+  
+  footer {
+    text-align: center;
+    height: auto;
+  }
+  .fo-logo img {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  width:200px;
+  height:200px;
+  position: relative;
+  left:-30px;
+  justify-content: center;
+  }
+  .buy-btn{
+    position: relative;
+    top:-15px;
+
+  }
+  .btn {
+    width: 100%;
+  }
+  .foo{
+    width: fit-content;
+  }
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+.folistt{
+    display: none;
+  }
+  .folist{
+   display:none;
+  }
+  
+  .wrapper img{
+    width: 120%;
+    size:auto;
+    position:relative;
+    left: -100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin:0 50px;
+    justify-content: center;
+  }  
+
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}

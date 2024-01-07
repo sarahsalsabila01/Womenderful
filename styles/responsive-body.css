@@ -1,0 +1,29 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+
+      
+          .wrapper img{
+            width: 100%;
+    }
+}
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+/*Name: Womenderful Project 2021
+URL: 
+Author: https://github.com/sarahsalsabila01*/
+h1{
+font-size: 30px;  }
+
+    .wrapper img{
+      margin-top: auto;
+      width: 120%;
+      height: 200px;
+    }
+  }
