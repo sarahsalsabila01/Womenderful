@@ -1,5 +1,5 @@
-#<center>WOMENDERFUL <br> </center><hr>
-###  Ini merupakan project yang dibangun saat mengikuti Womenderful Coding Bootcamp pada tahun 2021
+<center>WOMENDERFUL <br> </center><hr>
+Ini merupakan project yang dibangun saat mengikuti Womenderful Coding Bootcamp pada tahun 2021
 ### Diselenggarakan oleh Progate Indonesia.
 
 Bootcamp ini berfokus pada pendalaman HTML dan CSS. Sehingga project ini dirancang full menggunakan html dan css.
